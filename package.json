@@ -1,13 +1,17 @@
 {
+  "homepage": "https://EsraaGamal404.githup.io/Todo-List",
   "name": "todoapp",
   "version": "1.0.0",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "framer-motion": "^12.23.25",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.555.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -19,7 +23,7 @@
     "vite": "^5.0.0"
   },
   "engines": {
-  "node": ">=18.15.0",
-  "npm": ">=9.5.0"
-}
+    "node": ">=18.15.0",
+    "npm": ">=9.5.0"
+  }
 }
